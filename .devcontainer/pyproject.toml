@@ -1,0 +1,15 @@
+[project]
+name = "ml-devcontainer-project"
+version = "0.1.0"
+description = "Ambiente de desenvolvimento para Machine Learning em Python com uv e Dev Container"
+readme = "../README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "kagglehub>=0.3.0",
+    "pandas>=2.2.0",
+    "numpy>=1.26.0",
+    "scikit-learn>=1.5.0",
+    "matplotlib>=3.9.0",
+    "seaborn>=0.13.0",
+    "ipykernel>=6.29.0",
+]
