@@ -1,19 +1,7 @@
-# Python Virtual Environments & Cache
-__pycache__/
-*.py[cod]
-*$py.class
-.venv/
 .devcontainer/.venv/
-
-# Environment variables & secrets
-.env
-.env.*
-
-# Kaggle cache / temp data
+.devcontainer/uv.lock
+uv.lock
+*.lock
+__pycache__/
+.venv/
 .cache/
-data/
-
-# OS / Editor files
-.DS_Store
-.vscode/
-!.vscode/settings.json
